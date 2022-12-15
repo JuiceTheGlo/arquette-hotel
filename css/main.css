@@ -1,0 +1,292 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    color: white;
+    background-color: black;
+    font-family: minerva-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+header .logo {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    margin-left: 3rem;
+}
+header li {
+    font-size: 18px;
+}
+header button {
+    background-color: #F5BC23;
+    color: black;
+    font-weight: 700;
+    font-family: minerva-modern, sans-serif;
+    border-radius: 5px;
+    margin-left: 1.25rem
+}
+.medium-screen {
+    width: 275px;
+}
+.small-screen {
+    width: 200px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #F5BC23;
+    transition-duration: 0.3s;
+}
+.book-now {
+    color: black;
+    font-weight: 700;
+    font-size: 20px
+}
+.book-now:hover {
+    color: darkgoldenrod;
+    transition-duration: 0.3s;
+}
+.text-hero {
+    position: absolute;
+  top: 8px;
+  right: 16px;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-size: 46px;
+    color: white;
+}
+img {
+    width: 100%;
+}
+thead {
+    background-color: #DDD;
+    object-fit: cover;
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+main  {
+    background-color: white;
+}
+
+section {
+    padding-bottom: 4rem;
+    background-color: white;
+}
+h1 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+h2 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 36px;
+    padding: 0.5rem 0 1rem 0;
+}
+h3 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 52px;
+    margin-bottom: 1rem;
+}
+h4 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 46px;
+    padding-bottom: 2rem;
+    color: white;
+    padding-top: 3rem;
+}
+h5 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    color: white;
+}
+h5 img {
+    max-width: 6rem;
+}
+p {
+    font-family: minerva-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px
+}
+.offerings {
+    font-size: 22px;
+    line-height: 28px;
+}
+.smaller {
+    padding-bottom: 10px;
+}
+.amenity {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials {
+    color: white;
+    background-color: black;
+}
+input {
+    font-weight: 700;
+    font-size: 30px;
+}
+th {
+    font-family: minerva-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+footer ul {
+    color: white;
+    font-family: minerva-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+
+}
+footer li {
+    font-size: 12px;
+    list-style: none;
+    line-height: 3;
+    transition-duration: 0.5s;
+}
+.mobile-hero {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.sizing {
+    max-width: 2rem;
+    display: inline-block
+}
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+        font-size: 30px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+    font-size: 30px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 0.8s;
+}
+@keyframes fade {
+  from {opacity: .65}
+  to {opacity: 1}
+}
+.spacer {
+    padding: 3rem 0;
+    font-style: italic;
+    font-size: 52px;
+    text-align: center;
+}
+footer {
+    color: white;
+    padding: 3.5rem;
+}
+.footer-logo {
+    max-width: 100px;
+}
+.footer-smaller {
+    font-size: 17px;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 10px;
+}
+.icons {
+    width: 100%;
+    padding-right: 1rem;
+    min-width: 40px;
+}
+.icons-small {
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+}
+.gray-color {
+    background-color: #f1f1f1
+}
+select {
+    width: 300px;
+    font-family: minerva-modern, sans-serif;
+}
+.image-spacer {
+    padding-top: 2rem;
+}
+.list-space {
+    line-height: 60px
+}
+input {
+    background-color: aqua;
+}
+@media screen and (max-width:40em) {
+    .spacer {
+        text-align: left;
+        font-size: 52px;
+    }
+}
